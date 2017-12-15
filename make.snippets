@@ -1,0 +1,29 @@
+snippet ifeq "ifeq (...) ... endif"
+ifeq (${1},${2})
+	${3}
+endif
+endsnippet
+
+snippet ifn "ifneq (...) ... endif"
+ifneq (${1},${2})
+	${3}
+endif
+endsnippet
+
+snippet ifneq "ifneq (...) ... endif"
+ifneq (${1},${2})
+	${3}
+endif
+endsnippet
+
+snippet ifd "ifdef ... endif"
+ifdef ${1}
+	${2}
+endif
+endsnippet
+
+snippet ifdef "ifdef ... endif"
+ifdef ${1}
+	${2}
+endif
+endsnippet

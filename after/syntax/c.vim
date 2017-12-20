@@ -43,13 +43,13 @@ syn keyword c_struct cdev class clk
 syn keyword c_struct device
 syn keyword c_struct fasync_struct fb_deferred_io fb_info fb_ops file file_operations
 syn keyword c_struct hostent
-syn keyword c_struct i2c_client i2c_driver i2c_device_id inode input_dev  
+syn keyword c_struct i2c_client i2c_driver i2c_device_id in_addr inode input_dev  
 syn keyword c_struct list_head
 syn keyword c_struct miscdevice mutex
 syn keyword c_struct notifier_block
 syn keyword c_struct platform_device platform_driver poll_dev
 syn keyword c_struct sembuf semid_ds sockaddr sockaddr_in spi_device spi_driver
-syn keyword c_struct tasklet_struct timeval timer_list
+syn keyword c_struct tasklet_struct termios timeval timer_list
 syn keyword c_struct vm_area_struct
 syn keyword c_struct work_struct 
 hi c_struct guifg=#00FF00 
@@ -66,7 +66,7 @@ hi c_union guifg=#00FF00
 syn keyword	c_functon _exit __set_current_state
 syn keyword	c_functon access add_wait_queue add_timer alloc_chrdev_region ARRAY_SIZE accept atoi atomic_inc atomic_read atomic_set 
 syn keyword	c_functon bind bzero
-syn keyword	c_functon cdev_add cdev_alloc cdev_del cdev_init class_create class_destroy clk_disable clk_enable clk_get clk_get_rate clk_put close connect container_of copy_from_user copy_to_user  
+syn keyword	c_functon cdev_add cdev_alloc cdev_del cdev_init cfsetispeed cfsetospeed class_create class_destroy clk_disable clk_enable clk_get clk_get_rate clk_put close connect container_of copy_from_user copy_to_user  
 syn keyword	c_functon DECLARE_MUTEX DECLARE_WAIT_QUEUE_HEAD DECLARE_WAITQUEUE del_timer dev_err dev_info device_create device_destroy disable_irq dma_alloc_coherent dma_free_coherent do_div
 syn keyword	c_functon epoll_create epoll_ctl epoll_wait exit EXPORT_SYMBOL 
 syn keyword	c_functon fasync_helper fb_alloc_cmap void fb_dealloc_cmap fb_set_var fcntl FD_ISSET FD_SET FD_ZERO fgets fork fprintf framebuffer_alloc framebuffer_release free free_irq ftok
@@ -81,7 +81,7 @@ syn keyword	c_functon open
 syn keyword	c_functon perror pgprot_noncached pipe platform_device_add platform_device_add_data platform_device_alloc platform_device_put platform_device_register platform_device_unregister platform_driver_register platform_driver_unregister platform_get_drvdata platform_get_irq platform_get_resource platform_set_drvdata pm_runtime_enable pm_runtime_get_sync pm_runtime_irq_safe poll poll_wait pr_info pread printf printk pthread_attr_init pthread_attr_setschedparam pthread_attr_setstacksize pthread_create pthread_exit pthread_join pthread_mutex_lock pthread_mutex_unlock pthread_mutex_t put_user pwrite  
 syn keyword	c_functon raw_notifier_call_chain raw_notifier_chain_register raw_notifier_chain_unregister RAW_NOTIFIER_HEAD read readl register_chrdev_region register_framebuffer release_mem_region request_irq request_mem_region remap_pfn_range remove_wait_queue resource_size roundup
 syn keyword	c_functon scanf schedule schedule_delayed_work schedule_timeout schedule_work select semctl semget semop set_current_state setlocale shmat shmctl shmdt shmget signal signal_pending sizeof sleep socket spi_register_driver spi_set_drvdata spi_unregister_driver spin_lock_init sprintf strcpy strcmp strncmp strncpy system
-syn keyword	c_functon tasklet_init tasklet_kill tasklet_schedule
+syn keyword	c_functon tasklet_init tasklet_kill tasklet_schedule tcflush tcsetattr
 syn keyword	c_functon unlocked_ioctl unregister_chrdev_region unregister_framebuffer
 syn keyword	c_functon vfree vmalloc vzalloc
 syn keyword	c_functon wait wait_event_interruptible wake_up wake_up_interruptible waitpid WIFEXITED WIFSIGNALED write writel

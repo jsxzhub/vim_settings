@@ -237,6 +237,11 @@ set showcmd
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 source $VIMRUNTIME/mswin.vim
 behave mswin
+"记录操作记录
+set undofile
+set undodir=$HOME/.vim/tmp
+set undolevels=1000
+set undoreload=10000
 "set mouse=a
 "set clipboard^=unnamed,unnamedplus
 "set clipboard=unnamedplus

@@ -100,7 +100,7 @@ syn region	cPreCondit	start="^\s*\(%:\|#\)\s*\(if\|ifdef\|ifndef\|elif\)\>" skip
 syn region	cPreCondit  start="^\s*\(%:\|#\)\s*if.*0" skip="\\$" end="$" keepend contains=cComment,cCommentL,cCppString,cCharacter,cCppParen,cParenError,cNumbers,cCommentError,cSpaceError,cOperator,c_separator,cString,cCppString
 syn region	cPreCondit	contained start="defined" end="$" keepend contains=cComment,cCommentL,cCppString,cCharacter,cCppParen,cParenError,cNumbers,cCommentError,cSpaceError,cOperator,c_separator,cString,cCppString
 
-syn region  none	start="\"" end="\"" keepend contains=cSpecial,cFormat,c_separator
+"syn region  none	start="\"" end="\"" keepend contains=cSpecial,cFormat,c_separator
 "syn region  none	start="\"" end="$" keepend contains=cSpecial,cFormat,c_separator
 "syn region  none	start="'" end="'" keepend contains=cSpecial,cFormat,c_separator
 

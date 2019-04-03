@@ -7,8 +7,8 @@
 "hi c_operators guifg=#FF3030 gui=bold
 syn match cOperator display "=\|+\|-\|*\|/\|%\|<\|>\|!\|\~\|&\||\|\^\|\.\|->" contains=cComment,cCommentL
 
-syn match c_separator display ":\|;\|,\|'\|\"\|(\|)\|{\|}\|\[\|]\|]"
-hi c_separator guifg=#FD971F
+"syn match c_separator display ":\|;\|,\|'\|\"\|(\|)\|{\|}\|\[\|]\|]"
+"hi c_separator guifg=#FD971F
 
 syn keyword	c_keyword1 asm break case continue default do else for if goto return switch while  
 hi c_keyword1 guifg=#F92672
